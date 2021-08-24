@@ -1,3 +1,5 @@
 "use strict";
-const negociacao = new Negociacao(new Date, 300, 20);
-console.log(negociacao);
+const controller = new NegociacaoController();
+document
+    .querySelector(".form")
+    .addEventListener("submit", controller.adiciona.bind(controller));
