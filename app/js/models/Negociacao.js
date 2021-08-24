@@ -1,6 +1,6 @@
 "use strict";
 class Negociacao {
-    constructor(data, valor, quantidade) {
+    constructor(data, quantidade, valor) {
         this._data = data;
         this._valor = valor;
         this._quantidade = quantidade;
